@@ -1,14 +1,22 @@
+# Incredifilms Frontend
+
+React-base mock admin dashboard for SQL DB backend.
+
 Frontend requires a .env file to specify the following environmental
 variable. Strings should be in doublequotes:
 
+```
 REACT_APP_API_URL={ e.g. http://localhost:3001 }
+```
 
 ### Developer startup -
+
 1. npm install
 2. npm start
 
 ### Production startup
+
 1. npm install
 2. npm run build
 3. serve build folder via your choice of SPA compatible process manager
-    (pm2 works great)
+   (pm2 works great)
